@@ -1,0 +1,181 @@
+/* Base css */
+body{
+    background-color: 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+margin: 0 0 15px;
+font-weight: 700;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{text-decoration: none;}
+
+.section-bg{
+    background-image: url(../img/5.jpg);
+}
+.section-padding {
+    position: relative;
+}
+
+.section-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60%;
+    height: 100%;
+    background-size: cover;
+}
+
+.section-bg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #31d6eb;
+    opacity: .8;
+}
+
+.contact-form {
+    padding: 100px 0;
+}
+
+
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 17px;
+    border: 1px solid #fff;
+}
+
+.contact-form h2 {
+    color: #fff;
+}
+
+input:focus, textarea:focus, button:focus {
+    outline: none;
+}
+
+.contact-form input:focus {
+    border: 1px solid;
+}
+
+.contact-form input[type=submit] {
+    width: auto;
+    padding: 15px 30px;
+    font-weight: 700;
+}
+
+.absulate-text {
+}
+
+.appoinment-text {
+    padding-left: 100px;
+}
+.section-padding {
+    position: relative;
+}
+
+.section-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60%;
+    height: 100%;
+    background-size: cover;
+}
+
+.section-bg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #31d6eb;
+    opacity: .8;
+}
+
+.contact-form {
+    padding: 100px 0;
+}
+
+
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 17px;
+    border: 1px solid #fff;
+}
+
+.contact-form h2 {
+    color: #fff;
+}
+
+input:focus, textarea:focus, button:focus {
+    outline: none;
+}
+
+.contact-form input:focus {
+    border: 1px solid;
+}
+
+.contact-form input[type=submit] {
+    width: auto;
+    padding: 15px 30px;
+    font-weight: 700;
+}
+
+
+.appoinment-text {
+    padding-left: 100px;
+    margin-top: 200px;
+}
+
+.appoinment-text ul {
+    list-style: none;
+}
+
+
+
+.appoinment-text i.fa {
+    color:#31d6eb;
+    padding-right:10px;
+    
+}
+
+.appoinment-text h3 {
+    margin-left: 32px;
+}
+
+.boxed-btn {
+    background: black;
+    padding: 10px 30px;
+    color: #fff;
+    margin-left: 100px;
+    margin-top: 40px;
+     }
+
+.appoinment-text ul li {
+    padding: 10px;
+}
+
+.appoinment-text ul li:last-child {
+    padding-bottom: 39px;
+}
+
